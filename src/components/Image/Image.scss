@@ -1,0 +1,16 @@
+.body-img {
+    box-sizing: border-box;
+    position: relative;
+    .img-text {
+        position: absolute;
+        left: 17%;
+        bottom: 40px;
+        color: white;
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+    }
+    .test-image {
+        width: 100%;
+    }
+}

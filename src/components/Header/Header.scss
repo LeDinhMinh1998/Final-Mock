@@ -1,0 +1,21 @@
+.rm-header {
+    width: 100%;
+    background: #1c1c1c;
+    .rm-header-content {
+        margin: 0 auto;
+        width: 1200px;
+        height: 60px;
+        padding: 20px 0px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        .rm-logo {
+            width: 250px;
+        }
+        .rm-text {
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}

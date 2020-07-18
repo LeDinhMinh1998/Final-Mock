@@ -1,0 +1,13 @@
+.tabview {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    .list-button {
+        display: flex;
+        justify-content: center;
+        .button-item {
+            padding: 10px;
+            margin: 0 10px;
+        }
+    }
+}

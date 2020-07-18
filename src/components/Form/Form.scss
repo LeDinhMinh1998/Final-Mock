@@ -1,0 +1,81 @@
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    margin: -200px;
+    animation: headerNotifyGrowth ease-in 0.2s;
+    .modal-overlay {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        .form {
+            width: 300px;
+            height: 365px;
+            background-color: white;
+            border-radius: 5px;
+            position: relative;
+            .chair-name {
+                font-family: 'Playfair Display', serif;
+                font-size: 2rem;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+            .guest-info {
+                font-family: 'Roboto', sans-serif;
+                color: #333;
+                padding: 0 35px 0 25px;
+                .name {
+                    display: block;
+                    float: left;
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    margin: 15px 0 2px;
+                }
+                .input {
+                    float: left;
+                    width: 100%;
+                    border-radius: 4px;
+                    border: 1px solid #dbdbdb;
+                    outline: none;
+                    padding: 5px;
+                    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+                    font-size: 1rem;
+                    font-weight: 600;
+                    background-color: #DBDBDB;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 0.9rem;
+
+                }
+                .button {
+                    position: absolute;
+                    right: 17px;
+                    bottom: 17px;
+                    background-color: #DBDBDB;
+                    color: #0080FF;
+                    padding: 7px;
+                    width: 55px;
+                    border-radius: 5px;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    font-weight: 700;
+                    &.button-save {
+                        right: 80px;
+                        background-color: #0080FF;
+                        color: white;
+                        // pointer-events: none;
+                        &.book-ticker-button-status {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
